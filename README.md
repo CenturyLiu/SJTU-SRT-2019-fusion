@@ -1,5 +1,8 @@
 # SJTU-SRT-2019-fusion
 SJTU-SRT-2019-fusion is the ROS package containing the perception, fusion and route management part of the SRT-2019 project. Before proceeding, please refer to [SJTU-SRT-2019](https://github.com/CenturyLiu/SJTU-SRT-2019) for backgrounds.
 ## Ideology
+The ROS nodes belong to the fusion package perform the following tasks in series: 
+* Detect the position of the cones from the lidar raw data (x,y,z position in the car's coordinate system; the direction the car is heading to is positive x; axes follow right hand rule) and the camera rectified image (the position is represented by a rectangle region, paramatrized by start and end x-y)
 
+* Fuse the perceived cone positions from lidar and camera raw data. Fusion is done by 
 ## Code illustration
