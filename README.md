@@ -11,8 +11,8 @@ The ROS nodes belong to the fusion package perform the following tasks in series
 ## Code illustration
 All the codes for this package are written in python and stored under the "scripts" folder. They can be divided into 3 differnt nodes completing different tasks:
 * node1: detect cones from lidar raw data
-** related file: 
-*** cone_visualization_v7.py
+>> related file: 
+>>> cone_visualization_v7.py
 * node2: detect cones from rectified color image
 ** related files:
 * node3: cone fusion and control
