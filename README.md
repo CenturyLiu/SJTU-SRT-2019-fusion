@@ -9,3 +9,4 @@ The ROS nodes belong to the fusion package perform the following tasks in series
 * Determine the left and right lanes by the color of the cones(red-left; blue-right) and find the target point for navigation. First count the number of red cones and blue cones determined. If red's number is bigger than or equal to the blue's(if numbers are equal, the number should be at least 2), follow the left lane. If the blue's number is bigger, follow the right lane. If both color has only one determined cone, choose the mid point of those two cones as the target. If only one cone or no cone is detected, stop car.
 
 ## Code illustration
+All the codes for this package are written in python and stored under the "scripts" folder.   
