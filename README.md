@@ -13,6 +13,7 @@ All the codes for this package are written in python and stored under the "scrip
 * node1: detect cones from lidar raw data
 >> related file: 
 >>> cone_visualization_v7.py
+>>>> Effect: 
 * node2: detect cones from rectified color image
 ** related files:
 * node3: cone fusion and control
