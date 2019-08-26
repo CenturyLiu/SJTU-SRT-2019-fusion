@@ -12,14 +12,14 @@ The ROS nodes belong to the fusion package perform the following tasks in series
 All the codes for this package are written in python and stored under the "scripts" folder. They can be divided into 3 differnt nodes completing different tasks:
 * node1: detect cones from lidar raw data
 >> related file: 
->>> cone_visualization_v7.py
->>>> Effects: 
+　　　cone_visualization_v7.py
+　　　Effects: 
 
 * node2: detect cones from rectified color image
 >> related files: <br>
-　　image_process.py
-
-detection.py
+　　image_process.py　<br>
+  　Effects: <br>
+　　detection.py　<br>
 　　Effects:<br>
 　　variables(folder), checkpoint, config.json, index, model.ckpt-504050.data-00000-of-00001, model.ckpt-50450.index, model.ckpt-50450.meta, model.ckpt-5814.meta, pipeline.config, saved_model.pb <br>
     
