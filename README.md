@@ -14,13 +14,15 @@ All the codes for this package are written in python and stored under the "scrip
 >> related file: 
 >>> cone_visualization_v7.py
 >>>> Effects: 
+
 * node2: detect cones from rectified color image
->> related files:
->>> image_process.py
->>>> Effects:
->>> detection.py
->>>> Effects:
->>> variables(folder), checkpoint, config.json, index, model.ckpt-504050.data-00000-of-00001, model.ckpt-50450.index, model.ckpt-50450.meta, model.ckpt-5814.meta, pipeline.config, saved_model.pb
->>>> Description: files for using a pre-trained model (the model is trained under mobile-ssd-quantized, tensorflow engine)
+>> related files: <br>
+image_process.py
+
+detection.py
+    Effects:<br>
+    variables(folder), checkpoint, config.json, index, model.ckpt-504050.data-00000-of-00001, model.ckpt-50450.index, model.ckpt-50450.meta, model.ckpt-5814.meta, pipeline.config, saved_model.pb <br>
+    
+Description: files for using a pre-trained model (the model is trained under mobile-ssd-quantized, tensorflow engine)
 
 * node3: cone fusion and control
