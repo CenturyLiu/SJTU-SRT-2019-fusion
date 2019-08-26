@@ -24,7 +24,15 @@ All the codes for this package are written in python and stored under the "scrip
   
   　model related files: 
 　　variables(folder), checkpoint, config.json, index, model.ckpt-504050.data-00000-of-00001, model.ckpt-50450.index, model.ckpt-50450.meta, model.ckpt-5814.meta, pipeline.config, saved_model.pb <br>
-    
-
-
-* node3: cone fusion and control
+  
+ 　　cone_color_detection.py <br>
+ 　　Effects:
+　　　
+* node3: cone fusion and control　
+　　related files: <br>
+　　lidar_cam_fusion.py<br>
+　　Effects:<br>
+　　lidar2img.py<br>
+　　Effects:<br>
+　　get_target<br>
+　　Effects:<br>
