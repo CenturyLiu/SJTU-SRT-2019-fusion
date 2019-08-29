@@ -18,7 +18,7 @@ All the codes for this package are written in python and stored under the "scrip
 * node2: detect cones from rectified color image
 　　related files: <br>
 　　image_process.py　<br>
-　　    Effects: The ROS node for detecting the cones from image color. Once the node receive a rectified image, <br> 　　　　　　it first utilize the function "detection.py" to detected the position of the cones. Then we crop the <br>　　　　　　 detected cones and use function cone_color_detection.py to check the color of the cones. Finally, the node will pose the detected cones with their position in the image and their color, in terms of the "imagel_whole.msg" data type. <br>
+　　    Effects: The ROS node for detecting the cones from image color. Once the node receive a rectified image, <br> 　　　　　　it first utilize the function "detection.py" to detected the position of the cones. Then we crop the <br>　　　　　 detected cones and use function cone_color_detection.py to check the color of the cones. Finally, the node will pose the detected cones with their position in the image and their color, in terms of the "imagel_whole.msg" data type. <br>
 　　detection.py　<br>
 　　    Effects:<br>
   
