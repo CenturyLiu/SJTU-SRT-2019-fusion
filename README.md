@@ -10,12 +10,12 @@ The ROS nodes belong to the fusion package perform the following tasks in series
 
 ## Code illustration
 All the codes for this package are written in python and stored under the "scripts" folder. They can be divided into 3 differnt nodes completing different tasks:
-* node1: detect cones from lidar raw data
+* node1: detect cones from lidar raw data <br>
 　　related file: <br>
 　　cone_visualization_v7.py <br>
 　　    Effects:   This is the ROS node for cone detection from raw lidar data.The node is consistently receiving data from 　　　　　　the lidar.<br>     　　　　　　Once the raw data is received, the node will unpack the raw data and get 3D data points in terms of the 　　　　　　lidar coordinate system.  <br> 　　　　　　Then we clustring the raw data and judge whether a cluster belongs to the cone based on its height and 　　　　　　width. <br>　　　　　　After finishing the detection, the node will pose all the detected cones in terms of the　<br> 　　　　　　cone_pos_whole.msg data type.
 
-* node2: detect cones from rectified color image
+* node2: detect cones from rectified color image　<br>
 　　related files: <br>
 　　image_process.py　<br>
 　　    Effects: The ROS node for detecting the cones from image color. Once the node receive a rectified image, <br> 　　　　　　it first utilize the function "detection.py" to detected the position of the cones. Then we crop the <br>　　　　　　 detected cones and use function cone_color_detection.py to check the color of the cones. <br>　　　　　　Finally, the node will pose the detected cones with their position in the image and their color, in terms of <br> 　　　　　　the "imagel_whole.msg" data type. <br>
@@ -28,7 +28,7 @@ All the codes for this package are written in python and stored under the "scrip
  　　cone_color_detection.py <br>
  　　    Effects:
 　　　
-* node3: cone fusion and control　
+* node3: cone fusion and control　 <br>
 　　related files: <br>
 　　lidar_cam_fusion.py<br>
 　　    Effects:<br>
