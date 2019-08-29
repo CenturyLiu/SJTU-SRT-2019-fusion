@@ -18,10 +18,9 @@ All the codes for this package are written in python and stored under the "scrip
 * node2: detect cones from rectified color image　<br>
 　　related files: <br>
 　　image_process.py　<br>
-　　    Effects: The ROS node for detecting the cones from image color. Once the node receive a rectified image, <br> 　　　　　　it first utilize the function "detection.py" to detected the position of the cones. Then we crop the <br>　　　　　　 detected cones and use function cone_color_detection.py to check the color of the cones. <br>　　　　　　Finally, the node will pose the detected cones <br>　　　　　　with their position in the image and their color, in terms of <br> 　　　　　　the "imagel_whole.msg" data type. <br>
+　　    Effects: The ROS node for detecting the cones from image color. Once the node receive a rectified image, <br> 　　　　　　it first utilize the function "detection.py" to detected the position of the cones. Then we crop the <br>　　　　　　 detected cones and use function cone_color_detection.py to check the color of the cones. <br>　　　　　　Finally, the node will pose the detected cones with their position in the image and their color, in terms of <br> 　　　　　　the "imagel_whole.msg" data type. <br>
 　　detection.py　<br>
-　　    Effects: function for using pretrained model to detect cones. The folder containing this function should also be 
-      with the files listed below.<br>
+　　    Effects: function for using pretrained model to detect cones. The folder containing this function should also be　<br> 　　　　　　with the files listed below.<br>
   
   　model related files: 
 　　variables(folder), checkpoint, config.json, index, model.ckpt-504050.data-00000-of-00001, model.ckpt-50450.index, model.ckpt-50450.meta, model.ckpt-5814.meta, pipeline.config, saved_model.pb <br>
