@@ -13,7 +13,7 @@ All the codes for this package are written in python and stored under the "scrip
 * node1: detect cones from lidar raw data
 　　related file: <br>
 　　cone_visualization_v7.py <br>
-　　    Effects: <br>
+　　    Effects:  This is the ROS node for cone detection from raw lidar data.The node is consistently receiving data from the lidar.<br>     Once the raw data is received, the node will unpack the raw data and get 3D data points in terms of the lidar callback system.  <br> Then we clustring the raw data and judge whether a cluster belongs to the cone based on its height and width. After finishing the detection, the node will pose all the detected cones in terms of the cone_pos_whole.msg data type.
 
 * node2: detect cones from rectified color image
 　　related files: <br>
