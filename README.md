@@ -26,7 +26,7 @@ All the codes for this package are written in python and stored under the "scrip
 　　variables(folder), checkpoint, config.json, index, model.ckpt-504050.data-00000-of-00001, model.ckpt-50450.index, model.ckpt-50450.meta, model.ckpt-5814.meta, pipeline.config, saved_model.pb <br>
   
  　　cone_color_detection.py <br>
- 　　    Effects:　Function for detecting the color of the cones. The input must be an image of a cropped cone in terms of RGB. Given the input, the function will turn the image to HSV space and then detect the color based on HSV thresholds. <br>
+ 　　    Effects:　Function for detecting the color of the cones. The input must be an image of a cropped cone in terms of <br> 　　　　　　RGB. Given the input, the function will turn the image to HSV space and then detect the color based on HSV thresholds. <br>
 　　　
 * node3: cone fusion and control　 <br>
 　　related files: <br>
